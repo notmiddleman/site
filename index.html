@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image-Gallary</title>
+</head>
+
+<style>
+    html,
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .wrapper {
+        position: relative;
+        margin: 0 auto;
+    }
+    
+    .wrapper ul {
+        list-style: none;
+    }
+    
+    .wrapper ul li {
+        position: relative;
+        float: left;
+        margin: 4px 8px;
+        overflow: hidden;
+    }
+    
+    .wrapper ul li img {
+        height: 420px;
+        width: 414px;
+        cursor: pointer;
+        transition: all .4s cubic-bezier(0.215, 0.610, 0.355, 1);
+    }
+    
+    .wrapper ul li h4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: "lato", sans-serif;
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+        user-select: non;
+    }
+    /* hover effect*/
+    
+    .wrapper ul li:hover img {
+        transform: scale(1.1);
+        /* transform: rotate(45deg); */
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <ul>
+            <li><img src="imgs/img_1.jpg" alt="img">
+                <h4>Autumn</h4>
+            </li>
+            <li><img src="imgs/img_2.jpg" alt="img">
+                <h4>Sea</h4>
+            </li>
+            <li><img src="imgs/img_3.jpg" alt="img">
+                <h4>Deep</h4>
+            </li>
+            <li><img src="imgs/img_4.jpg" alt="img">
+                <h4>Beach</h4>
+            </li>
+            <li><img src="imgs/img_5.jpg" alt="img">
+                <h4>Laughter</h4>
+            </li>
+            <li><img src="imgs/img_6.jpg" alt="img">
+                <h4>Wedding</h4>
+            </li>
+            <li><img src="imgs/img_7.jpg" alt="img">
+                <h4>Photographer</h4>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
