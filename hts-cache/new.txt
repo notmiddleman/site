@@ -1,3 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-15:07:23	25/25	---M--	200	added ('OK')	text/plain	etag:%2219-58ce3066fac40%22	https://sneakyevil.eu/robots.txt		(from )
-15:07:23	2144/2144	---M-Z	200	added ('OK')	text/html	date:Fri,%2024%20Sep%202021%2013:07:26%20GMT	https://sneakyevil.eu/	C:/Users/barto/OneDrive/Pulpit/websitest/ff/sneakyevil.eu/index.html	(from )
